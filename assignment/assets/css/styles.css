@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .card {
+    height: 100px;
+    width: 200px;
+    object-fit: contain;
+    margin: 10px;
+  }
+
+.card-title {
+    font-size: 1.2rem; 
+}
+
+.card-text {
+    font-size: 1rem;
+}
+.form-check-input {
+    border: 1px solid #424b53 !important; /* Set the border color to black */
+    margin-top: 2px;
+}
+  .footer {
+      position: fixed; 
+      width: 100%;
+      bottom: 0;
+  }
