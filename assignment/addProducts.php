@@ -27,7 +27,7 @@ $view = new ProductsView();
             Name:
             <input id="name" name="name" type="" placeholder="Name">
             Price:
-            <input id="price" name="price" type="" placeholder="Price">
+            <input id="price" name="price" type="number" placeholder="Price">
         </div>
         <select id="productType">
             <option id="default" name="default" selected>Please Select Product.</option>
@@ -37,15 +37,15 @@ $view = new ProductsView();
         </select>
         <br>
         <label for="dvdfield" id="dvdfield" style="display: none;">Please provide DVD Size:
-            <input id="size" name="size" type="" placeholder="Size (MB)">
+            <input id="size" name="size" type="number" placeholder="Size (MB)">
         </label>
         <label for="furniturefield" id="furniturefield"  style="display: none;">Please provide dimensions:
-            <input id="height" name="height" type="" placeholder="Height (CM)">
-            <input id="width" name="width" type="" placeholder="Width (CM)">
-            <input id="length" name="length" type="" placeholder="Length (CM)">
+            <input id="height" name="height" type="number" placeholder="Height (CM)">
+            <input id="width" name="width" type="number" placeholder="Width (CM)">
+            <input id="length" name="length" type="number" placeholder="Length (CM)">
         </label>
         <label for="bookfield" id="bookfield" style="display: none;">Please provide weight:
-            <input id="weight" name="weight" type="" placeholder="Weight (KG)">
+            <input id="weight" name="weight" type="number" placeholder="Weight (KG)">
         </label>
         <button id="submit" class="add" type="submit" name="submit">Save</button>
         <a href="index.php" >Cancel</a>
